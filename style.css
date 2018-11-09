@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700|Open+Sans+Condensed:300,300i,700');
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+#jumbotron {
+  -webkit-background-size: cover cover;
+  background-size: cover;
+  background: url(header.jpg) no-repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: 1s;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#jumbotron img {
+  margin-top: 8%;
+}
+
+#jumbotron h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+
+#jumbotron h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#jumbotron p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+#jumbotron button {
+  padding: 15px 30px;
+  color: #e9ce46;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  border: #e9ce46 2px solid;
+  margin-bottom: 5%;
+  background-color: rgb(254, 254, 254, 0.2)
+}
+
+#jumbotron .logo {
+  margin: 1.5%;
+  animation: blinker 1s linear infinite
+}
+
+@keyframes blinker {
+  10% {
+    opacity: 0;
+  }
+}
+
+#firstcontent {
+  display: flex;
+  background-color: #1ec2ad;
+  padding: 4% 3%;
+  flex-flow: row wrap;
+}
+
+#firstcontent .content {
+  flex-basis: 46%;
+  text-align: right;
+  color: white;
+  padding: 20px;
+}
+
+#firstcontent .content-content {
+  flex-basis: 45%;
+  text-align: center;
+}
+
+#firstcontent .content h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10%;
+}
+
+#firstcontent .content p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+#second {
+  background-color: #2a536e;
+  display: flex;
+  padding: 4% 3%;
+  flex-flow: row wrap;
+}
+
+#second .content {
+  flex-basis: 46%;
+  text-align: center;
+  padding: 20px;
+}
+
+#second .content-content {
+  flex-basis: 45%;
+  text-align: left;
+}
+
+#second .content-content h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 18%;
+}
+
+#second .content-content p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#thirdcontent {
+  display: flex;
+  background-color: #ff6c51;
+  padding: 4% 3%;
+  flex-flow: row wrap;
+}
+
+#thirdcontent .content {
+  flex-basis: 46%;
+  text-align: right;
+  color: white;
+  padding: 20px;
+}
+
+#thirdcontent .content-content {
+  flex-basis: 45%;
+  text-align: center;
+}
+
+#thirdcontent .content h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10%;
+}
+
+#thirdcontent .content p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+#fourth {
+  background-color: #ff8847;
+  display: flex;
+  padding: 4% 3%;
+  flex-flow: row wrap;
+}
+
+#fourth .content {
+  flex-basis: 46%;
+  text-align: center;
+  padding: 20px;
+}
+
+#fourth .content-content {
+  flex-basis: 45%;
+  text-align: left;
+}
+
+#fourth .content-content h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 18%;
+}
+
+#fourth .content-content p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#fifth {
+  display: flex;
+  background-color: #79b9c4;
+  padding: 4% 3%;
+  flex-flow: row wrap;
+}
+
+#fifth .content {
+  flex-basis: 46%;
+  text-align: right;
+  color: white;
+  padding: 20px;
+}
+
+#fifth .content-content {
+  flex-basis: 45%;
+  text-align: center;
+}
+
+#fifth .content h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10%;
+}
+
+#fifth .content p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: 1px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-top: 45px;
+}
+
+footer p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  padding-bottom: 45px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 800px) {
+  #firstcontent,
+  #thirdcontent,
+  #fifth {
+    flex-flow: column;
+  }
+  #firstcontent .content,
+  #thirdcontent .content,
+  #fifth .content {
+    text-align: center;
+  }
+  #second,
+  #fourth {
+    flex-flow: column;
+  }
+  #second .content-content,
+  #fourth .content-content {
+    text-align: center;
+  }
+}
